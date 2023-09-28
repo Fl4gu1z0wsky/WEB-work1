@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="myscript.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>My little site</title>
+</head>
+<body>
+		<h1>
+			Welcome to my site
+		</h1>
+		<h2>
+			I hope you will enjoy the content !
+		</h2>
+		Here's some music to travel with you through <strike>the universe</strike> this website:
+		<br>
+		<audio controls autoplay>
+			<source src="./music/Justin Jet Zorbas - Lost Transmissions.mp3" type="audio/mpeg" alt="Justin Jet Zorbas - Lost Transmissions">	
+		  Your browser does not support the audio element.			  
+		</audio>
+		<br>
+		<div class="story">
+			<div>
+				Like most people, I <b>love astronomy</b>.
+				<br>
+				As far as I know, I've always gazed at the sky above my head. It helps me relax and enjoy even more life.
+				<br>
+
+				A small thinkg I'd like to share with you today is the majestic quote of Carl Sagan.<br>
+				But first, let me give you some context about it .......
+			</div>
+			<div>
+				<u>The Pale Blue Dot</u> is a photograph of Earth taken on February 14, 1990, by the Voyager 1 space probe 
+				from an unprecedented distance of approximately <b>6 billion kilometers</b> (40.5 AU), 
+				as part of that day's Family Portrait series of images of the Solar System. <br>
+				In the photograph <i>(that you can see below)</i>, Earth's apparent size is less than a pixel; the planet appears as a tiny dot against the vastness of space, 
+				among bands of sunlight reflected by the camera. Commissioned by NASA and resulting from the advocacy of astronomer and author Carl Sagan, 
+				the photograph was interpreted in Sagan's 1994 book, Pale Blue Dot, as representing humanity's minuscule and ephemeral place amidst the cosmos.<br>
+				The photograph was captured by Voyager 1, a spacecraft launched in 1977 with the initial purpose of studying the outer Solar System. 
+				After fulfilling its primary mission and as it ventured out of the Solar System, the decision to turn its camera around and capture one 
+				last image of Earth emerged, in part due to Sagan's proposition.<br>
+				Over the years, the photograph has been revisited and celebrated on multiple occasions, with NASA acknowledging its anniversaries 
+				and presenting updated versions, enhancing its clarity and detail.
+			</div>
+			<div>
+				Here's the best quote you will find on the internet <i>(you can find <a href="https://www.youtube.com/watch?v=2GcMszgjCws" title="Pale Blue Dot by Carl Sagan" target="_blank">here</a> if you're too lazy to read it or if you want to acompany your reading)</i> .......
+			</div>
+			<div>
+				<q class="speech">
+					From this distant vantage point, the Earth might not seem of any particular interest. But for us, it's different. Consider again that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives. The aggregate of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every "superstar," every "supreme leader," every saint and sinner in the history of our species lived there on a mote of dust suspended in a sunbeam.
+					<br>
+					The Earth is a very small stage in a vast cosmic arena. Think of the rivers of blood spilled by all those generals and emperors so that, in glory and triumph, they could become the momentary masters of a fraction of a dot. Think of the endless cruelties visited by the inhabitants of one corner of this pixel on the scarcely distinguishable inhabitants of some other corner, how frequent their misunderstandings, how eager they are to kill one another, how fervent their hatreds.
+					<br>
+					Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light. Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.
+					<br>
+					The Earth is the only world known so far to harbor life. There is nowhere else, at least in the near future, to which our species could migrate. Visit, yes. Settle, not yet. Like it or not, for the moment the Earth is where we make our stand.
+					<br>
+					It has been said that astronomy is a humbling and character-building experience. There is perhaps no better demonstration of the folly of human conceits than this distant image of our tiny world. To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we've ever known.
+				</q>
+				<i>Carl Sagan</i>
+			</div>
+			<br>
+		</div>
+		<p>
+			I don't know about you, but from my point of view, looking at this <b>magnificient</b> picture ... All my worries fades away to join the stars ...
+		</p>
+			<button onclick="changeImageVoyager()">Where is the Earth ?</button>
+			<br>
+			<img id="voyager-img" src="./images/palebluedot.jpg" alt="The pale blue dot from Voyager"/>
+		<p>
+			And just for the show, here's the one taken in 2013 by Cassini called <q>The Day the Earth Smiled</q>
+		</p>
+		<button onclick="changeImageCassini()">Ok for real now, where is the Earth ?</button>
+		<br>
+		<img id="cassini-img" src="./images/cassini-palebluedot.jpg" alt="The pale blue dot from Cassini" />
+
+		<h1>
+			The solar system
+		</h1>
+		<div class="container">
+			<div ><img src="./images/solar-system/earth.jpeg" alt="the Earth" /></div>
+			<div ><img src="./images/solar-system/jupiter.jpeg" alt="Jupiter" /></div>
+			<div ><img src="./images/solar-system/mars.jpeg" alt="Mars" /></div>
+			<div ><img src="./images/solar-system/mercury.jpeg" alt="Mercury" /></div>
+			<div ><img src="./images/solar-system/neptune.jpeg" alt="Neptune" /></div>
+		</div>
+		<div class="container">
+			<div ><img src="./images/solar-system/pluto.jpeg" alt="Pluto" /></div>
+			<div ><img src="./images/solar-system/saturn.jpeg" alt="Saturn" /></div>
+			<div ><img src="./images/solar-system/sun.jpeg" alt="the Sun" /></div>
+			<div ><img src="./images/solar-system/uranus.jpeg" alt="Uranus" /></div>
+			<div ><img src="./images/solar-system/venus.jpeg" alt="Venus" /></div>
+		</div>
+</body>
+</html>
